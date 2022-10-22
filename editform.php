@@ -10,7 +10,7 @@
 <head><meta charset="UTF-8"></head>
 <body>
 <form action="edit-member.php" method="post">
-    <input type="hidden" name="num" value="<?=$row["num"]?>">
+    <input type="hidden" name="username" value="<?=$row["username"]?>">
     ชื่อสมาชิก: <input type="text" name="username" value="<?=$row["username"]?>"><br>
     รหัสผ่าน: <input type="text" name="password" value="<?=$row["password"]?>"><br>
     ชื่อ-นามสกุล: <input type="text" name="name" value="<?=$row["name"]?>"><br>
