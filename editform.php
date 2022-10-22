@@ -1,7 +1,7 @@
 <?php include "connect.php" ?>
 <?php
-    $stmt = $pdo->prepare("SELECT * FROM member WHERE num = ?");
-    $stmt->bindParam(1, $_GET["num"]);
+    $stmt = $pdo->prepare("SELECT * FROM member WHERE username = ?");
+    $stmt->bindParam(1, $_GET["username"]);
     $stmt->execute();
     $row = $stmt->fetch();
 ?>
