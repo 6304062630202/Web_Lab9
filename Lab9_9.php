@@ -11,7 +11,7 @@
     echo "ชื่อ-นามสกุล:".$row ["name"]."<br>";
     echo "ที่อยู่:".$row ["address"]."<br>";
     echo "อีเมล์:".$row ["email"]."<br>";
-    echo "<a href='editform.php?num=".$row["num"]."'>แก้ไข</a>";
+    echo "<a href='editform.php?username=".$row["username"]."'>แก้ไข</a>";
     echo "<hr>\n";
     }
 ?>
