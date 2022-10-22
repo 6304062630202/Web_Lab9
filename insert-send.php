@@ -7,7 +7,6 @@
     $stmt->bindParam(4, $_POST["address"]);
     $stmt->bindParam(5, $_POST["mobile"]);
     $stmt->bindParam(6, $_POST["email"]);
-
     $stmt->execute();
 
     header("location: detail.php?num=");
