@@ -13,5 +13,6 @@
 <html>
 <head><meta charset="utf-8"></head>
 <body>
-เพิ่มสมาชิกใหม่สำเร็จ</body>
+    เพิ่มสมาชิกใหม่สำเร็จ
+</body>
 </html>
